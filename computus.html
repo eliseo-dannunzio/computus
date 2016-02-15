@@ -1,0 +1,28 @@
+<html>
+<body>
+<script>
+// Take into account this is using ES6's fat arrow notation. 
+e=y=>y+"0"+((d=56-(c=(y%19*351-31.9*~((b=(a=y/100|0)>>2)+29.32*a+13.54))/33%29|0)-~(a-b+c-24-y/.8)%7)>(f=31)?4:3)+(d-f>0&d-f<10?0:"")+(d>f?d-f:d)
+
+// If you're using something other than ES6, here's the same function in plain non-ES6 JavaScript:
+/*
+function e(y){
+  return y+"0"+((d=56-(c=(y%19*351-31.9*~((b=(a=y/100|0)>>2)+29.32*a+13.54))/33%29|0)-~(a-b+c-24-y/.8)%7)>(f=31)?4:3)+(d-f>0&d-f<10?0:"")+(d>f?d-f:d);
+}
+*/
+
+console.log(e(1777));// 30/3
+console.log(e(1969));// 6/4
+console.log(e(2013));// 31/3
+console.log(e(2008));// 23/3
+console.log(e(2009));// 12/4
+console.log(e(2010));// 4/4
+console.log(e(2011));// 24/4
+console.log(e(1583));// 10/4
+console.log(e(3029));// 22/3
+console.log(e(1789));// 12/4
+console.log(e(1725));// 1/4
+console.log(e(2016));// 27/3
+</script>
+</body>
+</html>
