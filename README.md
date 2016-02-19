@@ -5,5 +5,5 @@ Easter (or more accurately, Easter Sunday) has always been calculated as the fir
 
 Granted, this can be an absolute bitch to calculate. There are so many different algorithms out there... This function takes a numeric year and provides a string in `YYYYMMDD` format corresponding to the date that Easter Sunday falls.
 
-This answer is also provided in my entry under @WallyWest in StackOverflow's Code Golf challenge at http://codegolf.stackexchange.com/a/15644/8555
+This code is also provided in my answer entry under @WallyWest in StackOverflow's Code Golf challenge at http://codegolf.stackexchange.com/a/15644/8555
 
